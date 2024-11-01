@@ -1,0 +1,62 @@
+{
+	"apiVersion": 2,
+	"name": "sixa/add-to-cart",
+	"title": "Add to Cart",
+	"category": "widgets",
+	"icon": "store",
+	"description": "Display an add-to-cart button for a given product.",
+	"keywords": [
+		"sixa",
+		"button",
+		"add-to-cart",
+		"woocommerce",
+		"ecommerce"
+	],
+	"supports": {
+		"anchor": true,
+		"html": false
+	},
+	"attributes": {
+		"backgroundColor": {
+			"type": "string"
+		},
+		"customBackgroundColor": {
+			"type": "string"
+		},
+		"customGradient": {
+			"type": "string"
+		},
+		"customTextColor": {
+			"type": "string"
+		},
+		"hiddenNodes": {
+			"type": "array",
+			"default": []
+		},
+		"hideIfOutOfStock": {
+			"type": "boolean",
+			"default": false
+		},
+		"gradient": {
+			"type": "string"
+		},
+		"postId": {
+			"type": "number"
+		},
+		"quantity": {
+			"type": "number",
+			"default": 1
+		},
+		"text": {
+			"type": "string"
+		},
+		"textAlign": {
+			"type": "string"
+		},
+		"textColor": {
+			"type": "string"
+		}
+	},
+	"textdomain": "sixa-block-add-to-cart",
+	"editorScript": "file:./build/index.js"
+}
